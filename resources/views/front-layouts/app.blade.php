@@ -24,6 +24,8 @@
     <main>
         @yield('content')
     </main>
+    @include('front-layouts.footer')
+
 </div>
 <script src="{{asset('/js/slider.js')}}"></script>
 </body>
