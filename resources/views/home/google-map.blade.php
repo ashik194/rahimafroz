@@ -5,20 +5,24 @@
     </div>
 
     <div class="absolute mt-16" style="top:20%; left: 30%;">
-        <div class="w-4/6 h-20 bg-[#005CAB] rounded-md flex justify-center items-center px-4" style="width: 440px;">
+        <div class="w-4/6 h-20 bg-[#005CAB] rounded-md flex justify-center items-center px-4 w-[600px]" >
             <div class="m-4 bg-white h-16 w-full rounded-lg flex items-center justify-between px-4">
                 <div class="mx-2">
                     <select id="" name="category"
                             class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
-                        <option>Category</option>
-                        <option>Passenger Car</option>
-                        <option>IPS</option>
+                        <option>Division</option>
                     </select>
                 </div>
                 <div class="mx-2">
                     <select id="" name="category"
                             class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
-                        <option>Technology</option>
+                        <option>District</option>
+                    </select>
+                </div>
+                <div class="mx-2">
+                    <select id="" name="category"
+                            class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
+                        <option>Area</option>
                     </select>
                 </div>
                 <div class="mx-2">
