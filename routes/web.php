@@ -20,6 +20,14 @@ Route::get('/', function () {
 Route::get("/about", function(){
     return view("about.index");
 });
+Route::prefix('about')->group(function (){
+    Route::get('/management', function (){
+        return view('about.management');
+    });
+});
+Route::get("/about", function(){
+    return view("about.index");
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

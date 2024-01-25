@@ -4,7 +4,6 @@
     @include('home.categories')
     @include('home.google-map')
     @include('home.video')
-    @include('home.video')
     @include('home.brand')
     @include('home.establish')
     @include('home.social-media')
