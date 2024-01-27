@@ -27,8 +27,8 @@ Route::prefix('about')->group(function (){
     Route::get('/manufacturing', function (){
         return view('about.manufacturing');
     });
-    Route::get('/manufacturing', function (){
-        return view('about.manufacturing');
+    Route::get('/special-awards-achivement', function (){
+        return view('about.special-awards-achivement');
     });
 });
 Route::get("/about", function(){
