@@ -24,6 +24,12 @@ Route::prefix('about')->group(function (){
     Route::get('/management', function (){
         return view('about.management');
     });
+    Route::get('/manufacturing', function (){
+        return view('about.manufacturing');
+    });
+    Route::get('/manufacturing', function (){
+        return view('about.manufacturing');
+    });
 });
 Route::get("/about", function(){
     return view("about.index");
