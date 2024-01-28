@@ -6,11 +6,12 @@
 
     <div class="px-[133px] bg-[#DDEBF6] py-20">
         <div class="container mx-auto">
-            <div class="flex gap-10">
-                <div style="width: 300px !important;">
-                    <img class="object-cover " src="{{asset('/images/system/1st-img.png')}}" alt="">
+            <div class="">
+                <div class="w-[300px] float-left mr-8">
+                        <img class="" src="{{asset('/images/system/1st-img.png')}}" alt="">
+                    <h6 class="text-lg text-center my-2 font-bold">A.C. Abdur Rahim</h6>
                 </div>
-                <div class="flex-1 w-64">
+                <div>
                     <h1 class="text-3xl text-[#2E3EA5] font-bold uppercase mb-4">A.C. Abdur Rahim</h1>
                     <p class="text-justify">
                         A man of strict religious values, yet a believer in progressive dynamism, and a dreamer who thought nothing is impossible – Late A C Abdur Rahim overcame numerous challenges and obstacles to become one of the most accomplished entrepreneurs of this country. Born on the 20th of January 1915, he lost both his parents by the time he was seven years of age. Deprived of formal schooling and a typically comfortable childhood, he grew up as a man with strong determination, hardworking diligence, and humane compassion.
@@ -39,9 +40,9 @@
                         <h5 class="font-bold text-lg">A.C. Abdur Rahim</h5>
                         <p>Designation</p>
                         <div class="mt-4">
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
+                            <i class="fa-brands fa-square-facebook  text-2xl mr-2"></i>
+                            <i class="fa-brands fa-square-instagram  text-2xl mr-2"></i>
+                            <i class="fa-brands fa-linkedin  text-2xl"></i>
                         </div>
                     </div>
                 </div>
@@ -53,9 +54,9 @@
                         <h5 class="font-bold text-lg">A.C. Abdur Rahim</h5>
                         <p>Designation</p>
                         <div class="mt-4">
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
-                            <i class="fa-brands fa-square-facebook  text-md "></i>
+                            <i class="fa-brands fa-square-facebook  text-2xl mr-2"></i>
+                            <i class="fa-brands fa-square-instagram  text-2xl mr-2"></i>
+                            <i class="fa-brands fa-linkedin  text-2xl"></i>
                         </div>
                     </div>
                 </div>

@@ -17,10 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home.index');
 });
-Route::get("/about", function(){
-    return view("about.index");
-});
 Route::prefix('about')->group(function (){
+    Route::get("/rahimafrooz", function(){
+        return view("about.index");
+    });
     Route::get('/management', function (){
         return view('about.management');
     });
@@ -29,6 +29,9 @@ Route::prefix('about')->group(function (){
     });
     Route::get('/special-awards-achivement', function (){
         return view('about.special-awards-achivement');
+    });
+    Route::get('/rahimafrooz-batteries', function (){
+        return view('about.rahimafrooz-batteries');
     });
 });
 Route::get("/about", function(){
