@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .masonry {
+      column-gap: 3em;
+      column-count: 2;
+    }
+    .masonry-sm {
+      column-gap: 3em;
+      column-count: 2;
+    }
+    .masonry-md {
+      column-gap: 3em;
+      column-count: 3;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+  }

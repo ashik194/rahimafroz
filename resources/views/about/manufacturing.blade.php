@@ -6,12 +6,14 @@
 
     <div class="px-[133px] bg-[#DDEBF6] py-20">
         <div class="container mx-auto">
-            <div class="grid grid-cols-2 gap-16">
-            <div class="grid gap-4">
-                <div class="bg-[#005CAB] py-10 px-20 h-[160px]">
-                    <h1 class="text-4xl font-bold text-white">Manufacturing Facilities</h1>
+            <div class="masonry">
+            
+                <div class="h-[300px]">
+                    <div class="bg-[#005CAB] py-10 px-20 h-[160px] break-inside my-4">
+                        <h1 class="text-4xl font-bold text-white">Manufacturing Facilities</h1>
+                    </div>
                 </div>
-                <div class="h-[560px]">
+                <div class="h-[560px] break-inside">
                     <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <h2 class="text-[#0D72B9] text-xl font-bold">Cominco Line </h2>
@@ -22,7 +24,7 @@
                     </div>
                 </div>
 
-                <div class="h-[560px]">
+                <div class="h-[560px] break-inside">
                     <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
                     <div class=" border-b-2 border-[#005CAB]">
                         <h2 class="text-[#0D72B9] text-xl font-bold">Cast ON Strap (COS) </h2>
@@ -31,10 +33,10 @@
                             Our modernized COS (Cast –On- Strap) machine has four working stations with rotary table which speeds up the assembly process and ensures high quality group building. This automated machine is capable to handle COS for both central lug and lateral lug position and can manage the variations of strap thickness. It ensures stronger strap than the thinner gas-burnt conventional group building and reduce the lever action movement resulting from the road shock.
                         </p>
                     </div>
-                </div>
+                
             </div>
-<div class="grid gap-4">
-                <div class="h-[560px]">
+
+                <div class="h-[560px] break-inside">
                     <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
 
                     <div class="flex-1 border-b-2 border-[#005CAB]">
@@ -45,7 +47,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px]">
+                <div class="h-[560px] break-inside">
                     <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
 
                     <div class=" border-b-2 border-[#005CAB]">
@@ -67,9 +69,8 @@
                         </p>
                     </div>
                 </div>
-</div>
 
-<div class="grid gap-4">
+
                 <div class="h-[560px]">
                     <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
 
@@ -82,37 +83,32 @@
                     </div>
                 </div>
 
-</div>
-<div class="grid gap-4">
-    <div class="h-[560px]">
-        <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
+            <div class="h-[560px]">
+                <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
 
-        <div class="flex-1 border-b-2 border-[#005CAB]">
-            <h2 class="text-[#0D72B9] text-xl font-bold">ATP & ETP</h2>
-            <h3 class="text-[#0D72B9] text-lg">Facilities</h3>
-            <p class="mt-2 mb-6 text-justify">
-                Our Factories are highly equipped with Air Treatment and Effluent Treatment plant to keep our environment green & safe. Our ATP and ETP facilities are design for treating the industrial waste water and air for its reuse or safe disposal to the environment.
-            </p>
-        </div>
-    </div>
+                <div class="flex-1 border-b-2 border-[#005CAB]">
+                    <h2 class="text-[#0D72B9] text-xl font-bold">ATP & ETP</h2>
+                    <h3 class="text-[#0D72B9] text-lg">Facilities</h3>
+                    <p class="mt-2 mb-6 text-justify">
+                        Our Factories are highly equipped with Air Treatment and Effluent Treatment plant to keep our environment green & safe. Our ATP and ETP facilities are design for treating the industrial waste water and air for its reuse or safe disposal to the environment.
+                    </p>
+                </div>
+            </div>
 
 
-</div>
-<div class="grid gap-4">
-    <div class="h-[560px]">
-        <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
+            <div class="h-[560px]">
+                <img class="object-cover" src="{{asset("/images/system/manufacturing.png")}}" alt="">
 
-        <div class="flex-1 border-b-2 border-[#005CAB]">
-            <h2 class="text-[#0D72B9] text-xl font-bold">Material</h2>
-            <h3 class="text-[#0D72B9] text-lg">Management</h3>
-            <p class="mt-2 mb-6 text-justify">
-                The factory has built a modern warehouse with access pathway for trucks and container transport. The warehouse provides ample space for storage, sorting, loading and unloading of finished goods and raw materials for a complete packaging solution.
-            </p>
-        </div>
-    </div>
+                <div class="flex-1 border-b-2 border-[#005CAB]">
+                    <h2 class="text-[#0D72B9] text-xl font-bold">Material</h2>
+                    <h3 class="text-[#0D72B9] text-lg">Management</h3>
+                    <p class="mt-2 mb-6 text-justify">
+                        The factory has built a modern warehouse with access pathway for trucks and container transport. The warehouse provides ample space for storage, sorting, loading and unloading of finished goods and raw materials for a complete packaging solution.
+                    </p>
+                </div>
+            </div>
 
 
-</div>
 
         </div>
 
