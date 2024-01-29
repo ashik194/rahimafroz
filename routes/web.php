@@ -34,8 +34,11 @@ Route::prefix('about')->group(function (){
         return view('about.rahimafrooz-batteries');
     });
 });
-Route::get("/about", function(){
-    return view("about.index");
+Route::get("/contact-us", function(){
+    return view("contact.index");
+});
+Route::get("/become-a-dealer", function(){
+    return view("dealer.become-a-dealer");
 });
 
 Route::get('/dashboard', function () {

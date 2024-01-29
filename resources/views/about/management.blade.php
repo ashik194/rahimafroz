@@ -4,8 +4,8 @@
 
     </div>
 
-    <div class="px-[133px] bg-[#DDEBF6] py-20">
-        <div class="container mx-auto">
+    <div class="bg-[#DDEBF6] py-20">
+        <div class="container mx-auto px-[133px] ">
             <div class="">
                 <div class="w-[300px] float-left mr-8">
                         <img class="" src="{{asset('/images/system/1st-img.png')}}" alt="">
@@ -30,7 +30,7 @@
         </div>
 
 
-        <div class="container mx-auto w-[80%] mt-20">
+        <div class="container mx-auto w-[80%] mt-20 px-[133px]">
             <dov class="flex justify-between ">
                 <div class="w-48">
                     <div>
@@ -63,7 +63,7 @@
             </dov>
         </div>
 
-        <div class="container mt-20">
+        <div class="container mx-auto mt-20 px-[133px]">
             <div class="flex justify-between gap-20">
                 <div class="p-10 shadow-2xl">
                     <p class="text-justify">

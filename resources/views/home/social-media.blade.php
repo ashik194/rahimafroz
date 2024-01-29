@@ -1,5 +1,5 @@
-<div class="px-[133px] bg-[#DDEBF6]" style="background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset('/images/system/rahim-afroz-patern-2.png')}}')">
-    <div class="container mx-auto">
+<div class=" bg-[#DDEBF6]" style="background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset('/images/system/rahim-afroz-patern-2.png')}}')">
+    <div class="container mx-auto px-[133px]">
         <div class="flex justify-between pb-10 pt-20 gap-10">
             <div class="flex-2">
                 <iframe id="player" type="text/html" width="540" height="300"

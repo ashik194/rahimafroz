@@ -1,5 +1,5 @@
-<div class="pt-12 pb-20 md:px-[133px] " style="background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset("/images/system/brand.png")}}')">
-    <div class="container mx-auto">
+<div class="pt-12 pb-20" style="background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset("/images/system/brand.png")}}')">
+    <div class="container mx-auto px-[133px]">
         <div>
             <h1 class="text-3xl text-center font-bold uppercase text-[#0D72B9]">Our Brands</h1>
             <div class="flex justify-between mt-20">

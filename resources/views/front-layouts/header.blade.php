@@ -1,8 +1,8 @@
 <div class="h-[85px]">
 <div class="bg-[#DDEBF6]">
     <div class="flex h-full ">
-        <div class="w-3/4">
-            <img class="h-20" src="{{asset('/images/system/Rahimafrooz Logo.png')}}" alt="">
+        <div class="w-3/4 flex items-center">
+            <img class="h-16" src="{{asset('/images/system/Rahimafrooz Logo.png')}}" alt="">
         </div>
         <div class="w-3/4 h-[82px]" style='background-size:cover; background-position:center; background-repeat:no-repeat;background-image: url("{{asset('images/system/top-header.svg')}}")'>
             <div class="flex justify-end items-center h-full">
@@ -59,7 +59,7 @@
 <header class=" h-16 bg-[#005CAB] text-white" >
     <nav class="relative px-2 py-3">
 
-        <div class="container mx-auto flex justify-between items-center">
+        <div class="container mx-auto px-[133px] flex justify-between items-center">
 
             <ul class="hidden md:flex space-x-6">
                 <li><a href="/">Home</a></li>
@@ -102,7 +102,7 @@
 {{--                    </ul>--}}
                     <!-- Submenu ends -->
                 </li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
             </ul>
 
             <div class="flex items-center gap-6">
@@ -152,7 +152,7 @@
                         <!-- Submenu ends -->
                     </li>
                     <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">About</a></li>
-                    <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Contact</a></li>
+                    <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="/contact-us" class="block pl-7">Contact</a></li>
                 </ul>
             </div>
         </div>
