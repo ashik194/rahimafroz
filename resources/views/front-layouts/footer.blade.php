@@ -93,11 +93,20 @@
                     <span class="text-xs">Copyright © 2017-{{now()->format('Y')}} Rahimafrooz Batteries Ltd. All rights reserved.</span>
                 </div>
                 <div class="my-2">
-                    <select id="" name=""
-                            class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
-                        <option>English</option>
-                        <option>Bangla</option>
-                    </select>
+                    <a href="">
+                        <div
+                            class="mx-2 rahim-lang-btn flex items-center justify-center w-[82px] before:w-[107%]">
+                            <div class="absolute text-[15px] font-bold ml-[-2px] mt-[-2px]">
+                                <span class="pr-1 text-white">English</span> <i
+                                    class="fa-solid fa-angle-down text-white"></i>
+                            </div>
+                        </div>
+                    </a>
+{{--                    <select id="" name=""--}}
+{{--                            class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">--}}
+{{--                        <option>English</option>--}}
+{{--                        <option>Bangla</option>--}}
+{{--                    </select>--}}
                 </div>
             </div>
 
