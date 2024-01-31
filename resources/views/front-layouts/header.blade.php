@@ -1,13 +1,13 @@
-<div class="h-[85px]">
-    <div class="bg-[#DDEBF6]">
+<div class=" w-full" style="background-repeat: no-repeat; background-size: cover !important; background-position:center; background: url('{{asset("/images/system/header.png")}}')">
+{{--    <div class="bg-[#DDEBF6]">--}}
+    <div class="container mx-auto px-[133px]">
         <div class="flex h-full ">
             <div class="w-3/4 flex items-center">
                 <img class="h-16" src="{{asset('/images/system/Rahimafrooz Logo.png')}}" alt="">
             </div>
-            <div class="w-3/4 h-[82px]"
-                 style='background-size:cover; background-position:center; background-repeat:no-repeat;background-image: url("{{asset('images/system/top-header.svg')}}")'>
+            <div class="w-3/4 h-[82px]">
                 <div class="flex justify-end items-center h-full">
-                    <div class="md:pr-[133px]">
+                    <div class="">
                         <div class="flex justify-between">
                             <div class="text-white text-[12px]"><i class="fa-solid fa-tty"></i> +880 2 5815 3128 <span
                                     class="px-2">|</span> <i class="fa-solid fa-envelope"></i> battery@rahimafrooz.com

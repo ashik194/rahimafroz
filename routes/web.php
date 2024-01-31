@@ -40,6 +40,12 @@ Route::get("/contact-us", function(){
 Route::get("/become-a-dealer", function(){
     return view("dealer.become-a-dealer");
 });
+Route::get("/find-dealer", function(){
+    return view("dealer.find-dealer");
+});
+Route::get("/battery-manage", function(){
+    return view("dealer.battery-manage");
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
