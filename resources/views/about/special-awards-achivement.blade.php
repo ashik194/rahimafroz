@@ -1,9 +1,9 @@
 @extends('front-layouts.app')
 @section('content')
-    <div class="h-[300px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Special Awards & Achievement.png")}}')">
+    <div class="h-[360px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Special Awards & Achievement.png")}}')">
 
     </div>
-    <div class=" bg-[#DDEBF6] py-20">
+    <div class=" bg-[#DDEBF6] py-20" style="background-size: cover; background-position: center; background-repeat: no-repeat;background-image:url({{asset('/images/system/rahim-afroz-patern-2.png')}}">
         <div class="container mx-auto px-[133px]">
             <div class="masonry">
 

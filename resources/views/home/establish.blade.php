@@ -1,6 +1,6 @@
 <div class="" style="background-image: linear-gradient(90deg, #37B3DD,#A5BAE0)">
     <div class="container mx-auto px-[133px]">
-        <div class="h-[265px] flex justify-between items-center">
+        <div class="h-[400px] flex justify-between items-center">
             <div class="mt-8 text-center">
                 <div class="w-full flex justify-center">
                     <img src="{{asset('/images/icons/establish.png')}}" alt="">

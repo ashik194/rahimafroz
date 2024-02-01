@@ -4,31 +4,32 @@
         </iframe>
     </div>
     <div class="container mx-auto">
-        <div class="absolute mt-16 " style="top:20%; left: 30%;">
-            <div class="w-4/6 h-20 bg-[#005CAB] rounded-md flex justify-center items-center px-4 w-[600px]" >
-                <div class="m-4 bg-white h-16 w-full rounded-lg flex items-center justify-between px-4">
+        <div class="absolute mt-16 " style="top:20%; left: 20%;">
+            <h1 class="text-6xl uppercase font-bold text-center text-[#005CAB] mb-20">Find Dealer</h1>
+            <div class=" h-24 bg-[#005CAB] rounded-md flex justify-center items-center px-4 w-[900px]" >
+                <div class="m-4 bg-white h-20 w-full rounded-lg flex items-center justify-between px-4">
                     <div class="mx-2">
                         <select id="" name="category"
-                                class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
+                                class="block bg-[#005CAB] w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" >
                             <option>Division</option>
                         </select>
                     </div>
                     <div class="mx-2">
                         <select id="" name="category"
-                                class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
+                                class="block bg-[#005CAB] w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" >
                             <option>District</option>
                         </select>
                     </div>
                     <div class="mx-2">
                         <select id="" name="category"
-                                class="block bg-[#005CAB] w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" style="width: 110px;">
+                                class="block bg-[#005CAB] w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6" >
                             <option>Area</option>
                         </select>
                     </div>
                     <div class="mx-2">
                         <form action="" class="hidden md:block">
-                            <input type="search" name="" id="" class="bg-[#DDEBF6] h-[30px] rounded-full w-3/3 lg:inline-block lg:ml-auto " placeholder="Search" style="width: 120px;">
-                            <i class="fa-solid fa-search text-gray-500 ml-[-25px]"></i>
+                            <input type="search" name="" id="" class="bg-[#95E7F4] border-4 border-[#0D72B9] h-[40px] placeholder-[#0D72B9] font-bold rounded-lg w-4/4 lg:inline-block lg:ml-auto " placeholder="SEARCH">
+                            <i class="fa-solid fa-search ml-[-25px] text-[#0D72B9]"></i>
                         </form>
                     </div>
                 </div>

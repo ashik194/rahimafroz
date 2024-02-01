@@ -1,6 +1,6 @@
 @extends('front-layouts.app')
 @section('content')
-<div class="h-[300px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Rahimafrooz Batteries Ltd.png")}}')">
+<div class="h-[360px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Rahimafrooz Batteries Ltd.png")}}')">
 
 </div>
 
@@ -23,14 +23,15 @@
         </div>
     </div>
 </div>
+<div class="bg-[#DDEBF6]" style="background-size: cover; background-position: center; background-repeat: no-repeat;background-image:url({{asset('/images/system/rahim-afroz-patern-2.png')}}">
 
-    <div class="container mx-auto mt-20 px-[133px]">
+    <div class="container mx-auto pt-20 px-[133px]">
 {{--        <iframe id="player" type="text/html" width="100%" height="430"--}}
 {{--                src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"--}}
 {{--                frameborder="0"></iframe>--}}
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/6GolJa3RKDQ" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
     </div>
-<div class="container mx-auto my-20 px-[133px]">
+<div class="container mx-auto mt-20 pb-20 px-[133px]">
     <div class="relative w-full " style="padding-top: 42.25%;">
         <video class="absolute top-0 left-0 w-full h-[100%] object-cover" autoplay loop>
             <source src="{{asset("/images/system/Company-Milestone.mp4")}}">
@@ -41,5 +42,6 @@
     </p>
 </div>
 
+</div>
 
 @endsection

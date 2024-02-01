@@ -5,7 +5,7 @@
             <div class="w-3/4 flex items-center">
                 <img class="h-16" src="{{asset('/images/system/Rahimafrooz Logo.png')}}" alt="">
             </div>
-            <div class="w-3/4 h-[82px]">
+            <div class="w-3/4 h-[112px]">
                 <div class="flex justify-end items-center h-full">
                     <div class="">
                         <div class="flex justify-between">
@@ -14,8 +14,8 @@
                             </div>
                             <div class="flex justify-between px-2">
                                 <div class="px-1"><i class="fa-brands fa-square-facebook text-white text-md "></i></div>
-                                <div class="px-1"><i class="fa-brands fa-square-facebook text-white text-md "></i></div>
-                                <div class="px-1"><i class="fa-brands fa-square-facebook text-white text-md "></i></div>
+                                <div class="px-1"><i class="fa-brands fa-square-instagram text-white text-md "></i></div>
+                                <div class="px-1"><i class="fa-brands fa-linkedin text-white text-md "></i></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-2">
@@ -23,8 +23,11 @@
                                 <div class="mx-2 rahimafroz-btn  w-[92px] ">
                                     <div class="btn-up w-[92px] px-2 ">
                                         <div class="absolute text-[15px] font-bold ml-[-2px] mt-[-2px]">
-                                            <i class="fa-brands fa-square-facebook pr-1"></i>
-                                            Buy Now
+                                            <div class="flex items-center gap-1">
+                                                <img class="h-4" src="{{asset('/images/system/buy-now.png')}}" alt="">
+                                                <span>Buy Now</span>
+                                            </div>
+
                                         </div>
                                     </div>
 
@@ -34,8 +37,11 @@
                                 <div class="mx-2 rahimafroz-btn  w-[163px] before:w-[103.5%]">
                                     <div class="btn-up w-[163px] px-2 ">
                                         <div class="absolute text-[15px] font-bold ml-[-2px] mt-[-2px]">
-                                            <i class="fa-brands fa-square-facebook pr-1"></i>
-                                            Manage My Battery
+                                            <div class="flex items-center gap-1">
+                                                <img class="h-4" src="{{asset('/images/system/battery-icon.png')}}" alt="">
+                                                <span>Manage My Battery</span>
+                                            </div>
+
                                         </div>
                                     </div>
 
@@ -116,7 +122,7 @@
             <div class="flex items-center gap-6">
                 <form action="" class="hidden md:block">
                     <input type="search" name="" id=""
-                           class="bg-[#DDEBF6] h-[30px] rounded-full w-4/4 lg:inline-block lg:ml-auto "
+                           class="bg-[#DDEBF6] h-[40px] rounded-xl w-[300px] w-4/4 lg:inline-block lg:ml-auto "
                            placeholder="Search">
                     <i class="fa-solid fa-search text-gray-500 ml-[-25px]"></i>
                 </form>
