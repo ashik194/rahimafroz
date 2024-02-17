@@ -1,6 +1,6 @@
 @extends('front-layouts.app')
 @section('content')
-    <div class="h-[300px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/dealer-banner.png")}}')">
+    <div class="h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/dealer-banner.png")}}')">
 
     </div>
 

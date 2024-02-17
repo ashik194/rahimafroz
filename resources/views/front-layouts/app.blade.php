@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 
 
     <!-- Scripts -->
@@ -31,33 +32,40 @@
     @include('front-layouts.footer')
 
 </div>
-<script src="{{asset('/js/slider.js')}}"></script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 
 <script>
     $(document).ready(function () {
+        
         $('.owl-carousel').owlCarousel({
-            items: 3,
+            nav: true,
+      
             loop: true,
-            margin: 60,
             autoplay: true,
             autoplayTimeout: 3000,
             responsive: {
                 0: {
                     items: 1,
+                    margin: 10,
                 },
                 600: {
-                    items: 3,
+                    items: 2,
+                    margin: 20,
                 },
                 1000: {
                     items: 4,
+                    margin: 60,
                 },
             },
         });
+
+        $('.owl-nav').css('display','block')
+
     });
 </script>
 </body>

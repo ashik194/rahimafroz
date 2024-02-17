@@ -88,8 +88,8 @@
             <hr class="text-white mt-0">
 
             <div class="flex justify-between items-center">
-                <div>
-                    <img src="" alt="Logo">
+                <div class="flex gap-4 items-center">
+                    <img class="h-6" src="{{asset('/images/system/footer-logo.png')}}" alt="Logo">
                     <span class="text-xs">Copyright © 2017-{{now()->format('Y')}} Rahimafrooz Batteries Ltd. All rights reserved.</span>
                 </div>
                 <div class="my-2">
@@ -114,8 +114,8 @@
         </div>
     </div>
 </div>
-<div class="px-[133px] bg-[#005CAB] py-2 text-white">
-    <div class="container mx-auto">
+<div class="bg-[#005CAB] py-2 text-white">
+    <div class="container px-[133px] mx-auto">
         <div class="flex justify-between">
             <div>
                 <span class="text-xs">A Subsidiary of Rahimafrooz.</span>
@@ -126,4 +126,3 @@
         </div>
     </div>
 </div>
-
