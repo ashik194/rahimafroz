@@ -20,12 +20,12 @@
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border border-[#005CAB] rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="username" type="text" placeholder="Full Name*" style="background:none;"/>
+                                    id="username" type="text" placeholder="Phone No.*" style="background:none;"/>
                             </div>
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border border-[#005CAB] rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="username" type="text" placeholder="Full Name*" style="background:none;"/>
+                                    id="username" type="text" placeholder="E-mail" style="background:none;"/>
                             </div>
                         </div>
 

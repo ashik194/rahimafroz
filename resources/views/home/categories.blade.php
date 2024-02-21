@@ -1,6 +1,6 @@
 {{-- <div class="relative bg-[#0D72B9]"
      style="background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset("/images/system/rahim-afroz-patern-1.png")}}')"> --}}
-<div class="relative h-[880px] z-50"
+<div class="relative min-h-[880px] z-50"
      style="margin-top:-38px;background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('{{asset("/images/system/categories-bg.png")}}')">
     <div class="container mx-auto">
         {{-- <div class="container mx-auto ">
