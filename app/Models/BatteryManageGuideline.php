@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class BatteryManageGuideline extends Model
 {
     use HasFactory;
+    
+    protected $fillable = [
+        'title',
+        'description',
+    ];
 }

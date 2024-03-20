@@ -13,9 +13,11 @@ return new class extends Migration
     {
         Schema::create('management_infos', function (Blueprint $table) {
             $table->id();
+            $table->string('image');
+            $table->string('image_alt')->nullable();
             $table->string('management_name');
             $table->string('designation');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();
             $table->string('linkedin')->nullable();

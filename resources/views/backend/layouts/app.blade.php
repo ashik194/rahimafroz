@@ -18,7 +18,7 @@
 
 
      <!-- FAVICON -->
-     <link rel="icon" href="../assets/images/brand-logos/favicon.ico" type="image/x-icon">
+     <link rel="icon" href="" type="image/x-icon">
 
      <!-- ICONS CSS -->
      <link href="{{asset('/backend/css/icons.css')}}" rel="stylesheet">
@@ -31,6 +31,17 @@
 
     <!-- COLOR PICKER CSS -->
     <link rel="stylesheet" href="{{asset('/backend/css/nano.min.css')}}">
+
+    <link rel="stylesheet" href="{{asset('/backend/css/flatpickr.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/css/dropzone.css')}}">
+    
+    <link rel="stylesheet" href="{{asset('/backend/files/filepond.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/files/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/files/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/files/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css')}}">
+
+    <link rel="stylesheet" href="{{asset('backend/files/quill/quill.snow.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/files/quill/quill.bubble.css')}}">
     
     <!-- MAIN JS -->
     <script src="{{asset('/backend/js/main.js')}}"></script>
@@ -79,7 +90,25 @@
     
     <!-- SIMPLEBAR JS -->
     <script src="{{asset('/backend/js/simplebar.min.js')}}"></script>
+
+    <script src="{{asset("/backend/js/flatpickr.min.js")}}"></script>
+    <script src="{{asset('/backend/js/form-validation.js')}}"></script>
+    <script src="{{asset("/backend/js/dropzone-min.js")}}"></script>
     
+    
+    <script src="{{asset('backend/files/filepond-plugin-image-preview/filepond-plugin-image-preview.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-file-validate-size/filepond-plugin-file-validate-size.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-file-validate-type/filepond-plugin-file-validate-type.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-image-edit/filepond-plugin-image-edit.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-image-exif-orientation/filepond-plugin-image-exif-orientation.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-image-crop/filepond-plugin-image-crop.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-image-resize/filepond-plugin-image-resize.min.js')}}"></script>
+    <script src="{{asset('backend/files/filepond-plugin-image-transform/filepond-plugin-image-transform.min.js')}}"></script>
+    <script src="{{asset('/backend/js/filepond.min.js')}}"></script>
+    <script src="{{asset('/backend/js/fileupload.js')}}"></script>
+    
+
     <!-- Apex Charts JS -->
     <script src="{{asset('/backend/js/apexcharts.min.js')}}"></script>
 
@@ -101,6 +130,20 @@
 
     <!-- CUSTOM-SWITCHER JS -->
     <script src="{{asset('/backend/js/custom-switcher.js')}}"></script>
+
+    <script src="{{asset("backend/files/quill/quill.min.js")}}"></script>
+    <script src="{{asset("backend/js/quill-editor.js")}}"></script>
+
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/41.2.0/ckeditor.min.js" integrity="sha512-Efdza5hyWLCHfsMBMeA4CI43/pkApXWwLkOp2G/pzLpXaRvKVlskbnBJ1hN0zyszukpImHS3440x5gM1iw8/Qw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.2.0/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#ashik' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 
     <!-- END SCRIPTS -->
 

@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Management extends Model
 {
     use HasFactory;
+    
+    protected $fillable = [
+        'banner',
+        'banner_alt',
+        'ceo_name',
+        'description',
+    ];
 }

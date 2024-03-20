@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class OurValue extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'icon',
+        'icon_alt',
+        'icon_name',
+    ];
 }

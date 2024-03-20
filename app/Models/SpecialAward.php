@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class SpecialAward extends Model
 {
     use HasFactory;
+    
+    protected $fillable = [
+        'image',
+        'image_alt',
+        'description',
+    ];
 }

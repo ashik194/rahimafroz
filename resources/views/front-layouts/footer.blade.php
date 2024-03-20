@@ -1,5 +1,5 @@
 <div class="bg-[#0D72B9] ">
-    <div class="container mx-auto px-[133px]">
+    <div class="container mx-auto ">
         <div class="pt-8 text-white">
             <div class="flex justify-between">
                 <div class="footer-logo">

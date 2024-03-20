@@ -33,55 +33,12 @@
                         <!-- End::slide__category -->
 
                         <!-- Start::slide -->
-                        <li class="slide has-sub">
-                            <a href="javascript:void(0);" class="side-menu__item">
+                        
+                        <li class="slide">
+                            <a href="{{route('admin.dashboard')}}" class="side-menu__item">
                                 <i class="bx bx-home side-menu__icon"></i>
-                                <span class="side-menu__label">Dashboards<span
-                                        class="badge !bg-warning/10 !text-warning !py-[0.25rem] !px-[0.45rem] !text-[0.75em] ms-2">12</span></span>
-                                <i class="fe fe-chevron-right side-menu__angle"></i>
+                                <span class="side-menu__label">Dashboard</span>
                             </a>
-                            <ul class="slide-menu child1">
-                                <li class="slide side-menu__label1">
-                                    <a href="javascript:void(0)">Dashboards</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index.php" class="side-menu__item">CRM</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index2.html" class="side-menu__item">Ecommerce</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index3.html" class="side-menu__item">Crypto</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index4.html" class="side-menu__item">Jobs</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index5.html" class="side-menu__item">NFT</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index6.html" class="side-menu__item">Sales</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index7.html" class="side-menu__item">Analytics</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index8.html" class="side-menu__item">Projects</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index9.html" class="side-menu__item">HRM</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index10.html" class="side-menu__item">Stocks</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="index11.html" class="side-menu__item">Courses</a>
-                                </li>
-
-                                <li class="slide">
-                                    <a href="index12.html" class="side-menu__item">Personal</a>
-                                </li>
-                            </ul>
                         </li>
                         <!-- End::slide -->
                         <!-- Start::slide__category -->
@@ -98,8 +55,10 @@
                             </a>
                             <ul class="slide-menu child1">
                                 <li class="slide side-menu__label1"><a href="javascript:void(0)">Pages</a></li>
-                                <li class="slide"><a href="aboutus.html" class="side-menu__item">About Us</a></li>
-                                <li class="slide has-sub"><a href="javascript:void(0);" class="side-menu__item">Blog<i
+                                <li class="slide"><a href="{{route('admin.management')}}" class="side-menu__item">Management</a></li>
+                                <li class="slide"><a href="{{route('admin.special')}}" class="side-menu__item">Special</a></li>
+                                <li class="slide"><a href="{{route('admin.award')}}" class="side-menu__item">Award List</a></li>
+                                {{-- <li class="slide has-sub"><a href="javascript:void(0);" class="side-menu__item">Blog<i
                                             class="fe fe-chevron-right side-menu__angle"></i></a>
                                     <ul class="slide-menu child2">
                                         <li class="slide"><a href="blog.html" class="side-menu__item">Blog</a></li>
@@ -198,23 +157,8 @@
                                 <li class="slide"><a href="team.php" class="side-menu__item">Team</a></li>
                                 <li class="slide"><a href="terms.html" class="side-menu__item">Terms &amp; Conditions</a></li>
                                 <li class="slide"><a href="timeline.html" class="side-menu__item">Timeline</a></li>
-                                <li class="slide"><a href="todo.html" class="side-menu__item">To Do List</a></li>
+                                <li class="slide"><a href="todo.html" class="side-menu__item">To Do List</a></li> --}}
                             </ul>
-                        </li>
-                        <!-- End::slide -->
-
-
-                        <!-- Start::slide__category -->
-                        <li class="slide__category"><span class="category-name">General</span></li>
-                        <!-- End::slide__category -->
-
-                        <!-- Start::slide -->
-                        <li class="slide">
-                            <a href="widgets.html" class="side-menu__item">
-                                <i class="bx bx-gift side-menu__icon"></i>
-                                <span class="side-menu__label">Widgets <span
-                                        class="text-danger text-[0.75em] rounded-sm badge !py-[0.25rem] !px-[0.45rem] !bg-danger/10 ms-2">Hot</span></span>
-                            </a>
                         </li>
                         <!-- End::slide -->
 
@@ -226,21 +170,21 @@
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">
                                 <i class="bx bx-grid-alt side-menu__icon"></i>
-                                <span class="side-menu__label">Apps<span
-                                    class="text-secondary text-[0.75em] rounded-sm badge !py-[0.25rem] !px-[0.45rem] !bg-secondary/10 ms-2">New</span></span>
+                                <span class="side-menu__label">Apps
+                                    <span
+                                    class=""></span>
+                                </span>
                                 <i class="fe fe-chevron-right side-menu__angle"></i>
                             </a>
                             <ul class="slide-menu child1">
-                                <li class="slide side-menu__label1">
+                                {{-- <li class="slide side-menu__label1">
                                     <a href="javascript:void(0)">Apps</a>
-                                </li>
+                                </li> --}}
                                 <li class="slide">
-                                    <a href="full-calendar.html" class="side-menu__item">Full Calendar</a>
+                                    <a href="{{route('admin.slider')}}" class="side-menu__item">Slider</a>
+                                    <a href="{{route('admin.system.edit')}}" class="side-menu__item">System</a>
                                 </li>
-                                <li class="slide">
-                                    <a href="gallery.html" class="side-menu__item">Gallery</a>
-                                </li>
-                                <li class="slide has-sub">
+                                {{-- <li class="slide has-sub">
                                     <a href="javascript:void(0);" class="side-menu__item">Projects
                                         <i class="fe fe-chevron-right side-menu__angle"></i></a>
                                     <ul class="slide-menu child2">
@@ -341,7 +285,7 @@
                                             <a href="crypto-wallet.html" class="side-menu__item">Wallet</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> --}}
                             </ul>
                         </li>
                         <!-- End::slide -->

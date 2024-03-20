@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class FactoryList extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'image',
+        'image_alt',
+        'title',
+        'description',
+        'factory_name',
+    ];
 }

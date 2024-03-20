@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Certificate extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'image',
+        'image_alt',
+        'title',
+    ];
 }

@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class BatteryManage extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'phone_number',
+        'serial_key',
+        'vehicle',
+        'purchase_date',
+        'purchase_dlr',
+    ];
 }
