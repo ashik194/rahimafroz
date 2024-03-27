@@ -172,3 +172,15 @@ body{
   .owl-nav button:focus {
       outline: none;
   }
+
+  .map-upper{
+    top:15%;
+    left: 26%;
+  }
+
+  @media screen and (max-width: 480px) {    
+    .map-upper{
+        top: 12%;
+        left: 3%;
+      }
+  }

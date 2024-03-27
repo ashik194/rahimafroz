@@ -1,19 +1,19 @@
 @extends('front-layouts.app')
 @section('content')
-    <div class="h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/battery-manage.png")}}')">
+    <div class="h-[120px] sm:h-[200px] lg:h-[300px] xl:h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/battery-manage.png")}}')">
 
     </div>
 
     <div class="bg-[#DDEBF6] py-10">
-        <div class="container mx-auto px-[133px]">
+        <div class="container mx-auto px-[20px] md:px-[133px]">
             <div class="my-4 ">
-                <h1 class="text-4xl text-[#005CAB] font-bold text-center">Register For 24/7 Nation-Wide</h1>
-                <h6 class="lg my-2 text-[#005CAB] text-2xl font-bold text-center">Paperless Warranty Service</h6>
+                <h1 class="text-2xl md:text-4xl text-[#005CAB] font-bold text-center">Register For 24/7 Nation-Wide</h1>
+                <h6 class="lg my-2 text-[#005CAB] text-xl md:text-2xl font-bold text-center">Paperless Warranty Service</h6>
             </div>
             <div class="mt-16">
                 <div class="w-full">
-                    <form class=" px-8 pt-6 pb-8 mb-4">
-                        <div class="flex justify-between gap-20">
+                    <form class="px-4 md:px-8 pt-6 pb-8 mb-4">
+                        <div class="flex justify-between gap-2 md:gap-20">
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border placeholder-[#DDEBF6] bg-[#0D72B9] text-white border-[#005CAB] rounded-lg w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -25,7 +25,7 @@
                                     id="username" type="text" placeholder="Phone Number" />
                             </div>
                         </div>
-                        <div class="flex justify-between gap-20">
+                        <div class="flex justify-between gap-2 md:gap-20">
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border bg-[#0D72B9] text-white placeholder-[#DDEBF6] border-[#005CAB] rounded-lg w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -37,7 +37,7 @@
                                     id="username" type="text" placeholder="Vehicle/Device/Application" />
                             </div>
                         </div>
-                        <div class="flex justify-between gap-20">
+                        <div class="flex justify-between gap-2 md:gap-20">
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border bg-[#0D72B9] text-white placeholder-[#DDEBF6] border-[#005CAB] rounded-lg w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -58,10 +58,10 @@
 
             </div>
 
-            <div class="mt-16 px-8">
-                <h1 class="text-3xl text-[#005CAB]">Check Battery Status: </h1>
+            <div class="mt-16 px-2 md:px-8">
+                <h1 class="text-2xl md:text-3xl text-[#005CAB]">Check Battery Status: </h1>
                 <form class=" pt-6 pb-8 mb-4">
-                    <div class="flex justify-between gap-10">
+                    <div class="flex justify-between gap-2 md:gap-10">
                         <div class="flex-1 mb-4">
                             <input
                                 class="shadow appearance-none border placeholder-[#DDEBF6] bg-[#0D72B9] text-white border-[#005CAB] rounded-lg w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -73,7 +73,7 @@
                                 id="username" type="text" placeholder="Serial" />
                         </div>
                         <div>
-                            <button class="bg-[#0D72B9] text-white px-12 py-2 rounded-lg text-xl ">
+                            <button class="bg-[#0D72B9] text-white px-4 md:px-12 py-2 rounded-lg text-xl ">
                                 Search
                             </button>
                         </div>
@@ -84,7 +84,7 @@
 
             
 
-            <div class="px-8">
+            <div class="px-4 md:px-8">
                 <div class="flex justify-center items-start my-2">
                   <div class="w-full my-1">
                     <ul class="flex flex-col">

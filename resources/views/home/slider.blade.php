@@ -1,7 +1,7 @@
 
-<div id="default-carousel" class="relative w-full md:h-[620px]" data-carousel="slide">
+<div id="default-carousel" class="relative w-full md:min-h-[300px]" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-full">
+    <div class="relative min-h-32 overflow-hidden rounded-lg md:min-h-[280px] lg:min-h-[370px] xl:min-h-[620px]">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="{{asset('/images/system/RA main page slide show 1.jpeg')}}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">

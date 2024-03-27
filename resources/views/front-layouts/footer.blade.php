@@ -1,7 +1,7 @@
 <div class="bg-[#0D72B9] ">
-    <div class="container mx-auto ">
+    <div class="container mx-auto px-[20px]">
         <div class="pt-8 text-white">
-            <div class="flex justify-between">
+            <div class="flex justify-between flex-wrap">
                 <div class="footer-logo">
                     <img class="w-1/5" src="{{asset('/images/system/70 Years Logo.png')}}" alt="">
                 </div>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-12 gap-x-12">
+            <div class="grid sm:grid-cols-6 md:grid-cols-12 gap-x-12 gap-y-4">
                 <div class="col-span-4 md:col-span-4">
                     <p class="text-justify text-sm pt-4">
                         Rahimafrooz was founded in 1954 as a pioneer in the Bangladeshi battery industry. Rahimafrooz Storage Power Business (RSPB) is the core business of the Group, with leadership in the local and some international markets.  As the leading supplier of lead acid batteries in Bangladesh with the latest technology of batteries, RSPB serves the most extensive network of dealers and retailers. It is the only company that has batteries to offer for every segment in the industry.
@@ -67,7 +67,7 @@
 
                 </div>
             </div>
-            <div class="flex justify-between items-center mt-4">
+            <div class="flex justify-between items-center mt-4 flex-wrap gap-y-4">
                 <div>
                     <a href="" class="text-[#95E7F4] pr-6 text-xs"><span>Terms and Conditions </span></a>
                     <a href="" class="text-[#95E7F4] pr-6 text-xs"><span>Privacy policy </span></a>
@@ -87,8 +87,8 @@
             </div>
             <hr class="text-white mt-0">
 
-            <div class="flex justify-between items-center">
-                <div class="flex gap-4 items-center">
+            <div class="flex justify-between items-center flex-wrap gap-y-2">
+                <div class="flex gap-4 items-center flex-wrap mt-4">
                     <img class="h-6" src="{{asset('/images/system/footer-logo.png')}}" alt="Logo">
                     <span class="text-xs">Copyright © 2017-{{now()->format('Y')}} Rahimafrooz Batteries Ltd. All rights reserved.</span>
                 </div>
@@ -115,7 +115,7 @@
     </div>
 </div>
 <div class="bg-[#005CAB] py-2 text-white">
-    <div class="container px-[133px] mx-auto">
+    <div class="container px-[20px] md:px-[133px] mx-auto">
         <div class="flex justify-between">
             <div>
                 <span class="text-xs">A Subsidiary of Rahimafrooz.</span>

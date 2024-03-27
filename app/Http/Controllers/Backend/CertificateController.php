@@ -14,6 +14,8 @@ class CertificateController extends Controller
     public function index()
     {
         //
+        $certificate = Certificate::latest()->get();
+        return view('backend.certificate.index', compact('certificate'));
     }
 
     /**

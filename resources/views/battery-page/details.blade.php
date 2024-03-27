@@ -24,16 +24,16 @@
         </ol>
     </nav>
       
-      <div class="flex justify-between gap-10">
-        <div class="product-image flex-1">
+      <div class="flex justify-between gap-2 md:gap-10 flex-wrap">
+        <div class="product-image sm:flex-1">
 
             <div class="font-[sans-serif] ">
-                <div class="p-6 lg:max-w-7xl max-w-4xl mx-auto">
+                <div class="p-2 md:p-6 lg:max-w-7xl max-w-4xl mx-auto">
                   {{-- <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6"> --}}
                   <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-5 p-6">
                     <div class="lg:col-span-5 w-full lg:sticky top-0 text-center">
                       {{-- <div class="px-4 py-10 rounded-xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative"> --}}
-                      <div class="px-4 py-10 rounded-xl  relative">
+                      <div class="px-2 md:px-4 py-10 rounded-xl  relative">
                         <img src="{{asset('/images/system/1. GLOBATT_ACE_N50_GREEN.png')}}" alt="Product" class="w-4/5 rounded object-cover" />
                         {{-- <button type="button" class="absolute top-4 right-4">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20px" fill="#ccc" class="mr-1 hover:fill-[#333]" viewBox="0 0 64 64">
@@ -41,7 +41,7 @@
                           </svg>
                         </button> --}}
                       </div>
-                      <div class="mt-6 flex flex-wrap justify-center gap-6 mx-auto">
+                      <div class="mt-6 flex flex-wrap justify-center gap-2 md:gap-6 mx-auto">
                         <div class="rounded-xl p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
                           <img src="{{asset('/images/system/1. GLOBATT_ACE_N50_GREEN.png')}}" alt="Product2" class="w-24 cursor-pointer" />
                         </div>
@@ -66,7 +66,7 @@
 
 
 
-        <div class="product-details flex-1">
+        <div class="product-details sm:flex-1 pl-10 md:pl-0">
             <div class="lg:col-span-2">
                 <h2 class="text-3xl font-extrabold text-[#005CAB]">GLOBATT</h2>
                 <div class="mt-6">
@@ -97,7 +97,7 @@
                 
                 <div class="mt-16">
                   <button type="button" class="min-w-[200px] px-4 py-3 bg-[#005CAB] hover:bg-[#111] text-white text-sm font-bold rounded uppercase">Buy now</button>
-                  <button type="button" class="min-w-[200px] px-4 py-3 bg-[#005CAB] hover:bg-[#111] text-white text-sm font-bold rounded uppercase">Add to Cart</button> <br>
+                  <button type="button" class="min-w-[200px] px-4 py-3 bg-[#005CAB] hover:bg-[#111] text-white text-sm font-bold rounded uppercase mt-4 lg:mt-0">Add to Cart</button> <br>
                   <button type="button" class="min-w-[200px] px-4 py-3 bg-[#005CAB] hover:bg-[#111] text-white text-sm font-bold rounded mt-4">Find Dealer</button>
                   {{-- <button type="button" class="min-w-[200px] px-4 py-2.5 border border-[#333] bg-transparent hover:bg-gray-50 text-[#333] text-sm font-bold rounded">Add to cart</button> --}}
                 </div>
@@ -126,13 +126,13 @@
         </div>
       </div>
 
-      <div class="product-information">
-        <h1 class="text-2xl font-bold">Product Information</h1>
+      <div class="product-information px-[20px]">
+        <h1 class="text-2xl font-bold mt-4">Product Information</h1>
         <div class="flex flex-wrap gap-4">
           <h4>Details</h4>
           <h4>Additional Information</h4>
         </div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-4">
           <div class="pt-4 border border-l-0 border-b-0 border-t-[#005CAB] border-r-[#005CAB]">
             <h1 class="text-3xl">GLOBATT</h1>
             <ul class="mt-6 space-y-4 text-[#333] px-8">
@@ -173,7 +173,7 @@
         </div>
       </div>
 
-      <div class="similar mt-16">
+      <div class="similar mt-16 px-8">
         <h1 class="text-2xl font-bold">Similar Product</h1>
 
         <div class="owl-carousel owl-theme mt-10">
@@ -226,7 +226,7 @@
       </div>
       </div>
 
-      <div class="static-text mt-20">
+      <div class="static-text mt-20 px-4">
         <div>
           <h4 class="text-3xl text-[#005CAB]">Best Price Commercial Vehicle</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis, commodi perferendis nulla incidunt deleniti itaque! Amet vero suscipit culpa ullam soluta? Quia ipsa error, aspernatur dolor voluptates temporibus doloremque!</p>

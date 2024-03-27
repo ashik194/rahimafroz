@@ -5,18 +5,18 @@
             frameborder="0" allowfullscreen>
     </iframe>
     <div class="bg-[#DDEBF6] py-20">
-        <div class="container mx-auto px-[133px]">
+        <div class="container mx-auto px-[20px] md:px-[133px]">
             <h1 class="text-3xl text-[#005CAB] uppercase font-bold text-center pb-20">Contact Us</h1>
             <div>
                 <div class="w-full">
-                    <form class=" px-8 pt-6 pb-8 mb-4">
+                    <form class="px-2 md:px-8 pt-6 pb-8 mb-4">
                         <div class="mb-4">
                             <input
                                 class="shadow appearance-none border border-[#005CAB] rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="username" type="text" placeholder="Full Name*" style="background:none;"/>
                         </div>
 
-                        <div class="flex justify-between gap-20">
+                        <div class="flex justify-between gap-2 md:gap-20">
                             <div class="flex-1 mb-4">
                                 <input
                                     class="shadow appearance-none border border-[#005CAB] rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

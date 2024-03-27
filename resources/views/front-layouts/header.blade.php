@@ -64,10 +64,10 @@
         </div>
     </div>
     
-    <header class=" h-16 bg-[#005CAB] text-white">
+    <header class=" min-h-16 bg-[#005CAB] text-white">
         <nav class="relative px-2 py-3">
     
-            <div class="container mx-auto  flex justify-between items-center">
+            <div class="container mx-auto  flex justify-between items-center flex-wrap">
     
                 <ul class="hidden md:flex space-x-6">
                     <li><a href="/">Home</a></li>
@@ -125,11 +125,13 @@
                         <i class="fa-solid fa-search text-gray-500 ml-[-25px]"></i>
                     </form>
                     <div class="hidden md:block rahimafroz-main-btn w-[125px]">
-                        <div class="btn-up w-[125px] px-2">
-                            <div class="absolute text-[15px] font-bold ml-[-2px] mt-[-2px]">
-                                Become a Dealer
+                        <a href="/become-a-dealer">
+                            <div class="btn-up w-[125px] px-2">
+                                <div class="absolute text-[15px] font-bold ml-[-2px] mt-[-2px]">
+                                    Become a Dealer
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="hidden md:block rahimafroz-main-btn w-[125px]">
                         <div class="btn-up w-[125px] px-2">

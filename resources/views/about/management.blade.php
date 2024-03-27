@@ -1,13 +1,13 @@
 @extends('front-layouts.app')
 @section('content')
-    <div class="h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Management.png")}}')">
+<div class="h-[120px] sm:h-[200px] lg:h-[300px] xl:h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Management.png")}}')">
 
     </div>
 
     <div class="bg-[#DDEBF6] py-20">
-        <div class="container mx-auto px-[133px] ">
+        <div class="container mx-auto px-[20px] md:px-[133px] ">
             <div class="">
-                <div class="w-[300px] float-left mr-8">
+                <div class="sm:w-[250px] md:w-[300px] float-left mr-8">
                         <img class="" src="{{asset('/images/system/1st-img.png')}}" alt="">
                     <h6 class="text-lg text-center my-2 font-bold">A.C. Abdur Rahim</h6>
                 </div>
@@ -29,10 +29,10 @@
             </div>
         </div>
 
-        <div class="container mx-auto mt-20 px-[133px]">
-            <div class="flex justify-between gap-20">
+        <div class="container mx-auto mt-20 px-[20px] md:px-[133px]">
+            <div class="flex justify-between gap-20 flex-wrap">
 
-                <div >
+                <div class="flex-1">
                     <div class="flex justify-center">
                         <div class="mb-10 w-48">
                             <div>
@@ -61,7 +61,7 @@
                         </p>
                     </div>
                 </div>
-                <div >
+                <div class="flex-1">
                     <div class="flex justify-center">
                         <div class="mb-10 w-48">
                             <div>

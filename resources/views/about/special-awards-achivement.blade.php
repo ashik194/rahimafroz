@@ -1,19 +1,19 @@
 @extends('front-layouts.app')
 @section('content')
-    <div class="h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Special Awards & Achievement.png")}}')">
+<div class="h-[120px] sm:h-[200px] lg:h-[300px] xl:h-[400px]" style="background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url('{{asset("/images/system/Special Awards & Achievement.png")}}')">
 
     </div>
     <div class=" bg-[#DDEBF6] py-20" style="background-size: cover; background-position: center; background-repeat: no-repeat;background-image:url({{asset('/images/system/rahim-afroz-patern-2.png')}}">
-        <div class="container mx-auto px-[133px]">
+        <div class="container mx-auto px-[20px] md:px-[133px]">
             <div class="masonry">
 
                 <div class="h-[300px]">
                     <div class="w-full bg-[#005CAB] py-10 px-20 flex justify-center items-center">
-                        <h1 class="text-4xl font-bold text-white text-center">Special Awards & Achievements</h1>
+                        <h1 class="text-xl md:text-2xl lg:text-4xl font-bold text-white text-center">Special Awards & Achievements</h1>
 
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -21,7 +21,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -29,7 +29,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -37,7 +37,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -45,7 +45,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -53,7 +53,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-[560px] break-inside">
+                <div class="min-h-[560px] break-inside mt-4">
                     <img class="w-full" src="{{asset("/images/system/awards-1.png")}}" alt="">
                     <div class="flex-1 border-b-2 border-[#005CAB]">
                         <p class="mt-2 mb-6 text-justify">
@@ -66,7 +66,7 @@
         </div>
     </div>
     <div class=" bg-[#DDEBF6] py-20">
-        <div class="container mx-auto px-[133px]">
+        <div class="container mx-auto px-[20px] md:px-[133px]">
 
             <diV class="mt-20">
 

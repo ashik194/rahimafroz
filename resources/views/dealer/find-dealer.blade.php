@@ -5,7 +5,7 @@
             frameborder="0" allowfullscreen>
     </iframe>
     <div class="bg-[#DDEBF6] py-10">
-        <div class="container mx-auto px-[133px]">
+        <div class="container mx-auto px-[20px] md:px-[133px]">
             <div class="my-4 ">
                 <h1 class="text-2xl text-[#005CAB]">Search Results</h1>
                 <h6 class="lg my-2 text-[#005CAB]">02 Dealers founded</h6>
@@ -14,7 +14,7 @@
                 <div class="w-full">
                     <div class="mt-4 mb-8">
                         <hr class="border-b border-[#005CAB] w-full mb-3">
-                        <div class="flex justify-between gap-20">
+                        <div class="sm:flex justify-between gap-4 lg:gap-20 flex-wrap">
                             <div class="flex-1 px-6 py-8 mt-6 border border-[#005CAB] text-[#005CAB]">
                                 <h4 class="text-xl">Dealer Name: <span>New Saika Motors</span></h4>
                                 <h4 class="text-xl">Address    : <span>Hazi Kalu Miah Market, C & B Road, Narsingdi.</span></h4>
@@ -26,7 +26,7 @@
                                     <h4 class="text-xl mt-4"> <i class="fa-solid fa-map-marker"></i> Locate on map </h4>
                                 </div>
                             </div>
-                            <div class="flex-1 px-6 text-[#005CAB]">
+                            <div class="sm:flex-1 px-6 text-[#005CAB]">
                                 <h3 class="text-xl font-bold mb-1">Dealer Network:</h3>
                                 <img class="w-full" src="{{asset('/images/system/find-dealer.png')}}" alt="">
                             </div>
@@ -34,8 +34,8 @@
                     </div>
                     <div class="mt-4 mb-8">
                         <hr class="border-b border-[#005CAB] w-full mb-3">
-                        <div class="flex justify-between gap-20">
-                            <div class="flex-1 px-6 py-8 mt-6 border border-[#005CAB] text-[#005CAB]">
+                        <div class="flex justify-between gap-4 lg:gap-20 flex-wrap">
+                            <div class="sm:flex-1 px-6 py-8 mt-6 border border-[#005CAB] text-[#005CAB]">
                                 <h4 class="text-xl">Dealer Name: <span>New Saika Motors</span></h4>
                                 <h4 class="text-xl">Address    : <span>Hazi Kalu Miah Market, C & B Road, Narsingdi.</span></h4>
 
@@ -46,7 +46,7 @@
                                     <h4 class="text-xl mt-4"> <i class="fa-solid fa-map-marker"></i> Locate on map </h4>
                                 </div>
                             </div>
-                            <div class="flex-1 px-6 text-[#005CAB]">
+                            <div class="sm:flex-1 px-6 text-[#005CAB]">
                                 <h3 class="text-xl font-bold mb-1">Dealer Network:</h3>
                                 <img class="w-full" src="{{asset('/images/system/find-dealer.png')}}" alt="">
                             </div>

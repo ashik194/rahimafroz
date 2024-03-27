@@ -20,51 +20,51 @@ style="margin-top:-38px;background-position: center; background-size: cover; bac
        <div class="py-20">
 
            <div class="mt-32">
-               <div class="w-full h-24 bg-[#005CAB] rounded-md flex justify-center items-center">
-                   <div class="m-4 bg-white h-20 w-full rounded-lg flex items-center justify-between px-4">
-                       <div class="mx-2">
+               <div class="w-full min-h-24 bg-[#005CAB] rounded-md flex justify-center items-center">
+                   <div class="m-4 bg-white min-h-20 w-full rounded-lg flex items-center justify-between px-4 flex-wrap">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>Category</option>
                                <option>Passenger Car</option>
                                <option>IPS</option>
                            </select>
                        </div>
-                       <div class="mx-2">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg  md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>Technology</option>
                            </select>
                        </div>
-                       <div class="mx-2">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg  md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>Brand</option>
                            </select>
                        </div>
-                       <div class="mx-2">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg  md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>Model</option>
                            </select>
                        </div>
-                       <div class="mx-2">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg  md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>Year</option>
                            </select>
                        </div>
-                       <div class="mx-2">
+                       <div class="mx-0 md:mx-2 mt-2">
                            <select id="" name="category"
-                                   class="block bg-[#005CAB] w-[140px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
+                                   class="block bg-[#005CAB] w-[120px] text-sm md:text-lg  md:w-[150px] rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#DDEBF6] focus:ring-2 focus:ring-inset focus:ring-[#DDEBF6] sm:max-w-xs sm:text-sm sm:leading-6">
                                <option>CC</option>
                            </select>
                        </div>
-                       <div class="mx-2">
-                           <form action="" class="hidden md:block">
-                               <input type="search" name="" id="" class="bg-[#95E7F4] border-4 border-[#0D72B9] h-[40px] placeholder-[#0D72B9] font-bold rounded-lg w-[280px] lg:inline-block lg:ml-auto " placeholder="FIND BATTERY">
-                               <i class="fa-solid fa-search ml-[-25px] text-[#0D72B9]"></i>
-                           </form>
+                       <div class="mx-0 md:mx-2 mt-2">
+                        <form action="" class="block">
+                            <input type="search" name="" id="" class="bg-[#95E7F4] border-4 border-[#0D72B9] h-[40px] placeholder-[#0D72B9] font-bold rounded-lg w-[180px] lg:inline-block lg:ml-auto " placeholder="FIND BATTERY">
+                            <i class="fa-solid fa-search ml-[-25px] text-[#0D72B9]"></i>
+                        </form>
                        </div>
                    </div>
                </div>
@@ -75,10 +75,12 @@ style="margin-top:-38px;background-position: center; background-size: cover; bac
 </div>
 </div>
 <div class=" bg-[#DDEBF6] py-20" style="background-size: cover; background-position: center; background-repeat: no-repeat;background-image:url('http://127.0.0.1:8000/images/system/rahim-afroz-patern-2.png')">
-<div class="container mx-auto mt-10">
+<div class="container mx-auto">
+    <div class="flex justify-end">
+        <h3 class="text-xl text-[#005CAB]">Nearest Dealer Find</h3>
+    </div>
     <div class="suitable-battery">
-        <h3 class="float-right text-xl text-[#005CAB]">Nearest Dealer Find</h3>
-        <div class="matching-image flex justify-between gap-4 items-center mt-10">
+        <div class="px-4 matching-image flex justify-between gap-4 items-center flex-wrap mt-4">
             <div class="flex-1">
                 <h1 class="text-3xl text-[#005CAB] font-semibold">Suitable Batteries For AUDI A3 (Diesel) </h1>
             </div>
@@ -242,7 +244,7 @@ style="margin-top:-38px;background-position: center; background-size: cover; bac
     </div>
 
 
-    <div class="similar">
+    <div class="similar px-8">
         <div class="similar mt-16">
     
             <div class="owl-carousel owl-theme mt-10">
